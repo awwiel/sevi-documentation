@@ -30,9 +30,6 @@ class Layout extends React.Component {
             <Heading fontSize={[6, 7]}>Sevi Documentation</Heading>
             <Heading fontWeight={400}>Everything to clearify</Heading>
             <Box display="flex" mt={4}>
-              <Button variant="primary" onClick={() => navigate('/doc')}>
-                Home
-              </Button>
               <Button
                 ml={2}
                 variant="primary"
