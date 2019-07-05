@@ -28,7 +28,7 @@ class Layout extends React.Component {
         <React.Fragment>
           <Header py={5} mb={5}>
             <Heading fontSize={[6, 7]}>Sevi Documentation</Heading>
-            <Heading fontWeight={400}>Everything to clearify</Heading>
+            <Heading fontWeight={400}>The sevi how!</Heading>
             <Box display="flex" mt={4}>
               <Button
                 ml={2}
