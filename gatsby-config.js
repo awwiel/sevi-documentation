@@ -2,8 +2,8 @@ module.exports = {
   pathPrefix: "/sevi-documentation",
   siteMetadata: {
     title: `Coolest Library`,
-    author: `Pedro Nauck`,
-    description: `Gatsby starter with Docz and a blog for your documentation`,
+    author: `Bartel Verkruijssen`,
+    description: `Sevi Documentation page`,
   },
   __experimentalThemes: [
     {

@@ -1,28 +1,17 @@
 import React from 'react'
-import { Box, Heading } from 'rebass'
-import { Link, graphql } from 'gatsby'
-import styled from 'styled-components'
+// import { Box, Heading } from 'rebass'
+// import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
+// import styled from 'styled-components'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import { rhythm } from '../utils/typography'
-
-const PostItem = styled(Box)`
-  & ~ & {
-    margin-top: 50px;
-  }
-`
-
-const PostTitle = styled(Heading)`
-  margin-top: ${rhythm(1 / 4)};
-  margin-bottom: ${rhythm(1 / 4)};
-`
+// import { rhythm } from '../utils/typography'
 
 class BlogIndex extends React.Component {
   render() {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
-    const posts = data.allMarkdownRemark.edges
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
