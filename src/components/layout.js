@@ -50,11 +50,11 @@ class Layout extends React.Component {
                 marginBottom: rhythm(1),
               }}
             />
-            <Box as="footer" mb={4}>
+            {/* <Box as="footer" mb={4}>
               © {new Date().getFullYear()}, Built with
               {` `}
               <a href="https://www.gatsbyjs.org">Gatsby</a>
-            </Box>
+            </Box> */}
           </Container>
         </React.Fragment>
       </ThemeProvider>
