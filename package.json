@@ -42,7 +42,7 @@
   "keywords": [
     "Sevi"
   ],
-  "license": "UNDEFINED",
+  "license": "SPDX",
   "main": "n/a",
   "scripts": {
     "build": "gatsby build",

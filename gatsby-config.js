@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/sevi-documentation",
+  pathPrefix: "/",
   siteMetadata: {
     title: `Coolest Library`,
     author: `Bartel Verkruijssen`,
