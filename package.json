@@ -42,7 +42,7 @@
   "keywords": [
     "Sevi"
   ],
-  "license": "SPDX",
+  "license": "MIT",
   "main": "n/a",
   "scripts": {
     "build": "gatsby build",
