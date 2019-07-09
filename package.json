@@ -1,10 +1,10 @@
 {
-  "name": "sevi-docs",
-  "description": "Sevi Documentation",
+  "name": "@pedronauck/gatsby-starter-docz",
+  "description": "Gatsby starter with Docz and a blog for your documentation",
   "version": "0.0.1",
-  "author": "Bartel Verkruijssen <bartel@sevi.io>",
+  "author": "Pedro Nauck <pedronauck@gmail.com>",
   "bugs": {
-    "url": "https://github.com/grinono/sevi-documentation"
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "dependencies": {
     "docz": "1.0.3",
@@ -36,14 +36,19 @@
     "typography-theme-fairy-gates": "^0.16.19"
   },
   "devDependencies": {
-    "gh-pages": "^2.0.1",
-    "prettier": "^1.17.0"
+    "prettier": "^1.17.0",
+    "gh-pages": "^2.0.1"
   },
+  "homepage": "https://github.com/pedronauck/gatsby-starter-docz#readme",
   "keywords": [
-    "Sevi"
+    "gatsby"
   ],
   "license": "MIT",
   "main": "n/a",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedronauck/gatsby-starter-docz.git"
+  },
   "scripts": {
     "build": "gatsby build",
     "dev": "gatsby develop",

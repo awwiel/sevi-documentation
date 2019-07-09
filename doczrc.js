@@ -1,10 +1,10 @@
 import * as colors from './src/utils/colors'
 
 export default {
-  title: 'Sevi Library',
+  title: 'Coolest Library',
   base: '/docs',
   ignore: ['**/blog/**', 'readme.md'],
-  menu: ['Getting Started', 'For anyone', 'For groups', 'For admins'],
+  menu: ['Getting Started'],
   themeConfig: {
     colors: {
       primary: colors.primary,
