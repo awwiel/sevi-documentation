@@ -1,5 +1,4 @@
 module.exports = {
-  pathPrefix: "/",
   siteMetadata: {
     title: `Coolest Library`,
     author: `Pedro Nauck`,
